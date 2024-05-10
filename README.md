@@ -26,8 +26,8 @@
 ## O que quero aprender sobre os assuntos que serão abordados nesse módulo?
 
 - Quero aprender Todos os Tipos de Funções e entender como utilizar cada tipo, construir as minhas proprias compreendendo perfeitamente o que está ali no código. 
-- Quero entender como criar um perfil no LinkedIn e como ele pode me ajudar a encontrar oportunidades de emprego.
-- Gostaria de entender melhor o que é ética em tecnologia e por que é importante.
+- Quero aprender sobre os diferentes Tipos e como utilizalos no TypeScript. 
+- Quero aprender a como gerenciar melhor o meu tempo , não procrastinar e ser mais produtivo. 
 - Quero entender como o Git funciona e como posso começar a usá-lo para controlar meus projetos de programação.
 - Gostaria de aprender os conceitos básicos de TypeScript e como ele se diferencia do JavaScript.
 - Quero saber o que são métodos de arrays.
