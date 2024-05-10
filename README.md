@@ -7,7 +7,7 @@
 - Funções 
 - Tipos de Dados II 
 - Gestão de Tempo 
-- 
+- Tipos Utilitários 
 - Git básico
 - Introdução a TypeScript
 - Métodos de strings
@@ -18,7 +18,7 @@
 - Funções são um blocos de código reutilizaveis que executam uma tarefa específica. permite que você agrupe um conjunto de instruções em um unico bloco nomeado , e invoque esse bloco conforme for necessário , funções são declaradas com a palavra function da maneira tradicional  ou por => em arrow functions que e uma forma mais simplificada, podem ou não ter parâmetros , sua forma padrão e da seguinte forma ex : function(parâmetros){escopo}. é as funções podem retornar um valor utilizando a palavra-chave return , isso permite a função processar dados e enviar o resultado de volta.   
 - Tipos de Dados II , aprendi sobre a palavra reservada type , que deixa o codigo mais organizado vc colocando os tipos de cada variavel que vai ser utilizada ali nos objetos, arrays ou variaveis em si, que quando declarados vc coloca :TPessoa exemplo , o que vc não vai precisar ficar declarando o tipo de cada elemento separado, aprendi também sobre Tipos literais que você coloca um unico valor em uma propriedade e somente ele pode ser atribuido como exemplo uma propriedade chamada marca:'Renault', somente Renault vai ser aceito naquela propriedade especificamente , aprendi a unir os tipos de dados com a | , exemplo a propriedade email:number | string  , serão aceitos strings (letras) ou number (números) nessa propriedade , aprendi sobre as tuplas que nada mais é do que um array onde cada elemento tem um tipo especifico para cada elemento , e este array tem um tamanho padrão o tamanho que você definir na tupla e o tamanho que o array vai ter, aprendi sobre os tipos conjuntos que com o operador & , e possivel mesclar tipos de um objeto com tipos de outro objeto, aprendi o tipo narrowing que atraves do typeof eu manipulo o tipo de dado que vem , para fazer chegar o que eu quero que chegue, aprendi o type assertion que e uma outra forma de manipular os tipos do typescript, informando a ele que ele deve considerar aquele tipo especifico que a gente utilize. aprendi atraves do operador in , a verificar se alguma propriedade existe dentro de um objeto. 
 - Gestão de tempo envolve organizar suas tarefas de forma eficaz para fazer o melhor uso do tempo, não procrastinar e não deixar as atividades acumularem, tambem aprendi a dar prioridades a aquilo que realmente e muito importante naquele dia não querer fazer tudo de vez achar que o mundo vai se acabar para não acabar se sobrecarregando e assim prejudicando o fisico eo emocional, além de ter me identificado com depoimentos de diversos colegas de turma que estavam com o mesmo receio que o meu do curso em relação ao aprendizado. 
-- 
+- Tipos Utilitários servem para facilitar a transformação de tipos comuns que ja existem e estão disponiveis globalmente. Primeiro tipo utilitário foi o Partial que constroi um tipo como todas as propriedades type definidas como opcionais, aprendi o tipo Required que e o inverso do Partial , constroi um tipo com todas as propriedades type definidas como obrigatórias. 
 - Git básico é uma ferramenta usada para controlar as diferentes versões de um projeto de software.
 - TypeScript é uma linguagem de programação relacionada ao JavaScript.
 - Métodos de strings são maneiras de manipular texto em programação.
