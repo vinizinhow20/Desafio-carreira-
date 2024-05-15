@@ -9,9 +9,9 @@
 - Gestão de Tempo 
 - Tipos Utilitários 
 - Métodos de strings
-- Introdução a TypeScript
+- Métodos de arrays 
 - Métodos de strings
-- Métodos de arrays
+- 
 
 ## O que eu já sei sobre os assuntos que serão abordados nesse módulo?
 
@@ -20,7 +20,7 @@
 - Gestão de tempo envolve organizar suas tarefas de forma eficaz para fazer o melhor uso do tempo, não procrastinar e não deixar as atividades acumularem, tambem aprendi a dar prioridades a aquilo que realmente e muito importante naquele dia não querer fazer tudo de vez achar que o mundo vai se acabar para não acabar se sobrecarregando e assim prejudicando o fisico eo emocional, além de ter me identificado com depoimentos de diversos colegas de turma que estavam com o mesmo receio que o meu do curso em relação ao aprendizado. 
 - Tipos Utilitários servem para facilitar a transformação de tipos comuns que ja existem e estão disponiveis globalmente. Primeiro tipo utilitário foi o Partial que constroi um tipo como todas as propriedades type definidas como opcionais, aprendi o tipo Required que e o inverso do Partial , constroi um tipo com todas as propriedades type definidas como obrigatórias,aprendi o tipo Readonly que significa apenas leitura não permitindo alteração de nenhuma propriedade apenas leitura, aprendi o tipo Pick que e declarado da seguinte maneira Pick<tipo, Propriedades>, tipo eo Type a ser utilizado , e propriedades são as propriedades dele em que você quer que o novo tipo herde separados por | , aprendi o tipo Omit que e o inverso do Pick , ele cria um novo modelo com todas as propriedades do que é colocado no tipo , e nas propriedades você cita as que você quer omitir, aprendi o Tipo Record que cria um objeto que  so funciona se todas as propriedades forem do mesmo Tipo, sua declaração e : Record<chave(a), Tipo>, aprendi o tipo Exclude que exclui propriedade quando o tipo dele é literal de união , declarado da seguinte forma Exclude<União de Tipos, Tipos Excluidos>, aprendi o tipo Extract que se parece muito com o Pick so que inves de ser para objetos , e para tipos de conjuntos de união , declarado Extract<União de Tipos, Tipos Extraidos> ele extrai os paramentros que você passa no Tipos Extraidos contrario do Exclude, Aprendi também o tipo Uppercase que sua declaração e : Uppercase < TipoString > que transforma todas as letras em maiúsculas da string. o tipo Lowercase que é declarado da seguinte maneira: Lowercase < TipoString >, que transforma todas as letras em minúsculas da string. E o tipo Capitalize que Transforma a primeira letra da string em maiúscula e o resto ele mantém da mesma forma, sua declaração é Capitalize < TipoString >.
 - Métodos de strings são maneiras de manipular texto em programação, o primeiro método aprendido foi o trim , que ele remove todos os espaços do inicio e do fim de uma string, exemplo: const nome = ' vinicius ' nome.trim() retornaria 'vinicius'. e suas variações trimStart que remove os espaços apenas do inicio de uma string, e o trimEnd que remove os espaços apenas do final de uma string, aprendi também os métodos toLowerCase eo toUpperCase que fazem o seguinte , o TolowerCase transforma todos os caracteres em letras minúsculas , eo toUpperCase transforma todos os caracteres em letras Maiúsculas. aprendi também o método substring que retorna a parte de uma string a partir do indice inicial e final exemplo: 'vinicius gabriel' = substring (0,7) ele so retorna 'vinicius', aprendi o método Slice que tem uma diferença sutil para o substring os dois extrai parte de uma string de acordo com os índices mais o slice consegue entender números negativos e cortar do fim para o inicio. aprendi o método split que converte uma string para um array contendo a string separada , se vc colocar como paramêtro ('') ele vai retornar cada letra como um objeto do array , (' ') assim ele retorna cada espaço da string como um objeto separado , ou então por exemplo: ('a') quando ele ver uma letra a na string vai ser o ponto de separação, aprendi os métodos replace e replaceAll que o replace substitui a primeira correpondencia de uma string por outra , e o replaceAll substitui todas as correspondencias de uma string por outra , exemplo: replace('adoro','amo') , o replace vai substituir a primeira correspondencia de adoro por amo , e o replaceAll todas as correspondencias de adoro por amo. aprendi também os metodos padStart é o padEnd, que o padStart completar o inicio da string com a correspondencia, de acordo com o tamanho definido, e o PadEnd completa o fim da string , exemplo : const nome = 'Vinicius' , nome.padStart(10,*) = string vai ter tamanho 10 e completar quanto falta para os 10 com * , vai retornar no exemplo '**vinicius', por ultimo aprendi os métodos indexOf que retorna o indice da correspondencia em uma string, e o includes que retorna verdadeiro ou falso caso encontre ou não a correspondencia em uma string.
--  
+-  Métodos de arrays, O primeiro método aprendido foi o Push , que adiciona um ou mais elementos em um array , e retorna o tamanho do array atual , exemplo: nomeArray.push(50), adiciona o elemento 50 no final do array nomeArray, sem a necessidade de [], aprendi também o método Pop , que remove o ultimo elemento do array e retorna o elemento que foi removido , exemplo: nomeArray.pop() , sem nenhum paramêtro dentro dos parênteses ele remove o ultimo elemento desse array. 
 - 
 
 ## O que quero aprender sobre os assuntos que serão abordados nesse módulo?
@@ -28,9 +28,9 @@
 - Quero aprender Todos os Tipos de Funções e entender como utilizar cada tipo, construir as minhas proprias compreendendo perfeitamente o que está ali no código. 
 - Quero aprender sobre os diferentes Tipos e como utilizalos no TypeScript. 
 - Quero aprender Os Tipos Utilitários saber suas diferenças e como Utilizalos e em quais situações. 
-- Quero entender como o Git funciona e como posso começar a usá-lo para controlar meus projetos de programação.
-- Gostaria de aprender os conceitos básicos de TypeScript e como ele se diferencia do JavaScript.
+- Quero entender sobre os Métodos de strings , como manipula-los e utiliza-los de forma que facilite meus códigos e ajude na resolução de problemas. 
 - Quero saber o que são métodos de arrays.
+- 
 
 ## Minha evolução: o que aprendi sobre os assuntos que foram abordados nesse módulo?
 
@@ -38,5 +38,5 @@
 - Aprendi algumas estratégias simples de gerenciamento de tempo, como fazer listas de tarefas e definir prioridades.
 - Aprendi sobre os diferente Tipos e como declaralos no TypeScript 
 - Aprendi os diferentes Tipos Utilitarios e suas diferenças e em quais situações cada tipo deve ser utilizado. 
-- 
+- Aprendi alguns métodos de manipulação de strings , como funcionam e em quais situações utiliza-los, os métodos Trim, suas variações trimStart, trimEnd, ToLowerCase ,ToUpperCase, Substring, slice , split , replace , replaceAll, padStart, padEnd, indexOf e o includes . 
 - Aprendi alguns métodos básicos de arrays, como adicionar e remover itens de uma lista.
