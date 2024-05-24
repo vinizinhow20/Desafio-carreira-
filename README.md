@@ -4,18 +4,20 @@
 
 ## Conteúdos a serem trabalhados nesse módulo BackEnd:
 
-- Funções 
-- Tipos de Dados II 
-- Tipos Utilitários 
-- Métodos de strings
-- Métodos de arrays 
-- Métodos de strings
-- Métodos de arrays II
+- Funções.
+- Tipos de Dados II.
+- Tipos Utilitários. 
+- Métodos de strings.
+- Métodos de arrays.
+- Métodos de strings.
+- Métodos de arrays II.
+- Métodos de arrays III.
 
   ## Conteúdos a serem trabalhados nesse módulo Carreira:
 
-  - Gestão de Tempo
-  - Currículo e carta de apresentação
+  - Gestão de Tempo.
+  - Currículo e carta de apresentação.
+  - LinkedIn: Primeiros passos. 
 
 ## O que eu já sei sobre os assuntos que serão abordados nesse módulo?
 
@@ -26,6 +28,7 @@
 - Métodos de strings são maneiras de manipular texto em programação, o primeiro método aprendido foi o trim , que ele remove todos os espaços do inicio e do fim de uma string, exemplo: const nome = ' vinicius ' nome.trim() retornaria 'vinicius'. e suas variações trimStart que remove os espaços apenas do inicio de uma string, e o trimEnd que remove os espaços apenas do final de uma string, aprendi também os métodos toLowerCase eo toUpperCase que fazem o seguinte , o TolowerCase transforma todos os caracteres em letras minúsculas , eo toUpperCase transforma todos os caracteres em letras Maiúsculas. aprendi também o método substring que retorna a parte de uma string a partir do indice inicial e final exemplo: 'vinicius gabriel' = substring (0,7) ele so retorna 'vinicius', aprendi o método Slice que tem uma diferença sutil para o substring os dois extrai parte de uma string de acordo com os índices mais o slice consegue entender números negativos e cortar do fim para o inicio. aprendi o método split que converte uma string para um array contendo a string separada , se vc colocar como paramêtro ('') ele vai retornar cada letra como um objeto do array , (' ') assim ele retorna cada espaço da string como um objeto separado , ou então por exemplo: ('a') quando ele ver uma letra a na string vai ser o ponto de separação, aprendi os métodos replace e replaceAll que o replace substitui a primeira correpondencia de uma string por outra , e o replaceAll substitui todas as correspondencias de uma string por outra , exemplo: replace('adoro','amo') , o replace vai substituir a primeira correspondencia de adoro por amo , e o replaceAll todas as correspondencias de adoro por amo. aprendi também os metodos padStart é o padEnd, que o padStart completar o inicio da string com a correspondencia, de acordo com o tamanho definido, e o PadEnd completa o fim da string , exemplo : const nome = 'Vinicius' , nome.padStart(10,*) = string vai ter tamanho 10 e completar quanto falta para os 10 com * , vai retornar no exemplo '**vinicius', por ultimo aprendi os métodos indexOf que retorna o indice da correspondencia em uma string, e o includes que retorna verdadeiro ou falso caso encontre ou não a correspondencia em uma string.
 -  Métodos de arrays, O primeiro método aprendido foi o Push , que adiciona um ou mais elementos no final de um array , e retorna o tamanho do array atual , exemplo: nomeArray.push(50), adiciona o elemento 50 no final do array nomeArray, sem a necessidade de [], aprendi também o método Pop , que remove o ultimo elemento do array e retorna o elemento que foi removido , exemplo: nomeArray.pop() , sem nenhum paramêtro dentro dos parênteses ele remove o ultimo elemento desse array, aprendi o método shift que a o contrario do pop , invés de remover o ultimo elemento do array , remove o primeiro elemento do array, e o contrario do push que adiciona elementos no final do array , tem o unshift que adiciona elementos no inicio do array, aprendi o método indexOf que retorna o indice no elemento no array , caso não encontre retorna -1 , se você passar objetos como paramêtro ele não consegue encontrar por o objeto ser diferente do declarado, funciona com palavras strings , números , ou se a busca for pelo indice do objeto, aprendi o método includes que retorna um booleano (verdadeiro ou falso) se o elemento existir ou não não na lista, aprendi também o reverse que inverter a ordem de um array de trás para frente o último elemento se torna o primeiro, aprendi também o método join que junta todos os elementos de um array é retorna uma string , .join() - se deixar os parênteres vazio ele retorna a string separada por ',' por padrão , aprendi o método slice que retorna uma cópia contendo a parte de um array de acordo com os indices informados , exemplo : .slice(0,2) -> ele vai retornar um array contendo os elementos que vão do indice 0 até o 2 , e pode usar negativos também que ai partem do final do array, é por fim aprendi o método splice que alterar um array removendo e/ou adicionando outros elementos, e retorna os elementos removidos , por exemplo .splice(0,2,'VINICIUS') que o 0 e de onde parte a remoção o 2 e o fim , e o 'VINICIUS', vai ser adicionado onde esta a remoção , pode ser contrario .splice(0,0,'VINICIUS') nesse caso o elemento 'VINICIUS', vai ser adicionado na posição 0,0 no caso primeiro elemento do array. 
 - Métodos de arrays II, Primeiro contéudo a ser aprendido foi o conceito de callbacks utilizando o setTimeOut , uma função que recebe uma outra função se trata de um callback , o setTimeOut executa algo em um tempo pré definido , você utiliza o setTimeOut(), e dentro dos parênteses vc ou coloca o nome da função sem os parênteses , ou cria a função dentro utilizando arrowfunction ou da forma tradicional sem a necessidade de nomeiar-la , utiliza a virgua e em seguida passa o tempo que você quer que aquela função demore a ser executada, tempo esse em milissegundos 2000 corresponde a 2 segundos, em seguida aprendi o setInterval(), que a o contrario do anterior ele continua executando durante o intervalo estipulado infinitamente até que você pare. para isso utiliza-se o clearInterval() que interrompe o SetInterval, aprendi o método every(), que testa se todos o elementos de um array passam pelo teste implementado e retorna verdadeiro o falso , aprendi o método some que ao contrário do every , ele testa se pelomenos um dos elementos atende a condição implementada e retorna Verdadeiro ou Falso, aprendi o método find que busca um elemento em um array e retorna o elemento caso exista aprendi também o método findIndex ele busca um elemento em um array e retorna o índice do elemento, caso exista ou -1 caso não encontre, aprendi o método filter que ele filtra e retorna um novo array com todos os elementos encontrados , caso não encontre ele retorna um array vazio []. E por último aprendi o método map que ele percorre todo os elementos de um array e retorna um novo array com o formado implementado, ele não modifica o array original.
+- Métodos de arrays III, Primeiro contéudo aprendido foi o método Sort(), que por padrão ordena tanto array de números quanto de letras da seguinte forma, os numeros por exemplo: [3,30,300,4,5].. e as letras [A,D,a,b,c] todo o alfabeto maiúsculo para depois vim as letras minúsculas, se você passar por paramêtro uma funcão com 2 elementos exemplo item1, item2 , e fizer uma condicional retornando exemplo: se item1 > item2. return 1 e o inverso se for menor , retornando -1 , e se for igual retornar 0 - o array vai ser ordenado de forma crescente. 
 
 ## O que quero aprender sobre os assuntos que serão abordados nesse módulo?
 
